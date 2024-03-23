@@ -15,7 +15,7 @@ jobs :
       - name : Setup Java JDK
         uses: actions/setup-java@v4.2.1
 
-      - name : Build with gradle
+      - name : Build with Gradle
         run : ./gradlew build
 
       - name: Upload a Build Artifact
